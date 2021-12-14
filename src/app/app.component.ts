@@ -9,13 +9,13 @@ import { Aluno } from './arquivo';
 export class AppComponent {
 
   //estancia 5 objetos do tipo Aluno
-  leonardo: Aluno = new Aluno("Leonardo", 3282772, "Análise e Desenvolvimento de Sistemas", "23/04/1994");
-  mariana: Aluno = new Aluno("Mariana", 3253779, "Tecnologia da Informação", "30/09/1988");
-  beline: Aluno = new Aluno("Beline", 3452891, "Ciência de Dados", "27/08/1985");
-  alex: Aluno = new Aluno("Alex", 3189429, "Engenharia de Software", "05/12/1993");
-  valesca: Aluno = new Aluno("Valesca", 3467998, "Tecnologia em Redes de Computadores", "25/04/1994");
+  jucinei: Aluno = new Aluno("Jucinei", 2315592, "Análise e Desenvolvimento de Sistemas", "17/08/1989");
+  camila: Aluno = new Aluno("Camila", 6924126, "Administração", "30/07/1993");
+  julio: Aluno = new Aluno("Julio", 2136596, "Design", "24/02/1989");
+  adao: Aluno = new Aluno("Adão", 3189429, "Educação Fisica", "05/11/1992");
+  juliane: Aluno = new Aluno("Juliane", 3461939, "Redes de Computadores", "25/03/1991");
 
   //Adiciona os 5 objetos a lista de alunos
-  alunos: Aluno[] = [this.leonardo, this.mariana, this.beline, this.alex, this.valesca];
+  alunos: Aluno[] = [this.jucinei, this.camila, this.julio, this.adao, this.juliane];
   
 }
